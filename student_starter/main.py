@@ -3,6 +3,9 @@ print('Guess one letter at a time. If you want to buy a vowel, you must have at 
 
 from random import randint
 
+# needed for your test cases so your random outputs would match ours
+random.seed(3)
+
 # List of letters to remove after each guess
 
 # List of all vowels

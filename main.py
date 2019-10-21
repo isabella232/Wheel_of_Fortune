@@ -5,6 +5,9 @@ print(
 from math import ceil
 from random import randint
 
+# needed for your test cases so your random outputs would match ours
+random.seed(3)
+
 amounts = [500, 750, 1000, 1250, 1500, 1750, 5000]
 total = 0
 
